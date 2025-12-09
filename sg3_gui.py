@@ -55,6 +55,10 @@ class SG3App(tk.Tk):
         self.geometry("1000x700")
 
         self.show_intro_popup()
+                # Override the window close button (X) to use quit confirmation
+        self.protocol("WM_DELETE_WINDOW", self.quit_program)
+
+        
 
     # -------------------------------------------------------------
     # INTRO POPUP
@@ -106,6 +110,7 @@ class SG3App(tk.Tk):
         win.grab_release()
         win.destroy()
         self.build_main_menu()
+        
 
     # -------------------------------------------------------------
     # MAIN MENU
