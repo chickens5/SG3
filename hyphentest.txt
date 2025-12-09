@@ -1,0 +1,4 @@
+This is a line that ends in a hyphen-
+ation.
+This example should not join because of a space before -
+See how first-base is counted as one word.

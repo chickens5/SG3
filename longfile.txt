@@ -1,0 +1,6 @@
+Apple banana apple-tree
+Banana apple
+Tree apple-banana.
+I love re-entering words like re-enter and co-op.
+This line ends with a hyphenated-
+word which should be joined.
